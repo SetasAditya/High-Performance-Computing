@@ -1,0 +1,13 @@
+MacOs				Linux				Function
+
+			
+lscpu			sysctl -a | grep machdep.cpu		
+
+To get CPU information of the system. The “lscpu” command fetches the CPU architecture information from the “sysfs” and /proc/cpuinfo files and displays it in a terminal.
+-----------------------------------------------------------------------------------
+			getconf -a
+
+-----------------------------------------------------------------------------------
+			getconf -a | grep "CACHE"
+
+-----------------------------------------------------------------------------------
